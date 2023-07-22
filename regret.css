@@ -591,3 +591,7 @@ div#endAHolderR {
 #bottomLeftClassImg {
     border-radius: 5px !important;
 }
+
+#topRightAdHolder {
+    display: none !important;
+}
