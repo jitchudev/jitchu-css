@@ -9,12 +9,16 @@
     src: url(https://reizu.moe/fonts/Renogare.ttf);
 }
 
-#loadingBg {
-  background-image: var(--bgpic);
-  background-size:cover;
-  background-repeat:no-repeat;
-  z-index: 99999999999;
+#uiBase:not([class]) #instructionsUpdateBG,
+#uiBase:not([class]) #instructionHolder,
+#uiBase:not([class]) #loadingBg1,
+#uiBase:not([class]) #loadingBg {
+    background-image: var(--bgpic) !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    z-index: 99999999;
 }
+
 
  /* quik fix gray boxes removed by jitchu */
 
