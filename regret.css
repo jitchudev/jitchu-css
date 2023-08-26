@@ -1,4 +1,4 @@
-/* last updated: 7/9/2023 */
+/* last updated: 26/08/2023 */
 /* css made by jitchu */
 /* discord: jitchu */
 /* twitter: JitchuFPS */
@@ -599,3 +599,69 @@ div#endAHolderR {
 #topRightAdHolder {
     display: none !important;
 }
+
+/* shop item text test */
+#bundlePop, #premiumPop {
+    pointer-events: all;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1035px;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    box-shadow: 2px 2px 8px rgb(255 255 255 / 82%);
+    background-color: #000000;
+    border: solid white 2px;
+}
+
+.bundlPopBuyC {
+    background: #000000!important;
+    border: solid white 2px;
+}
+
+#bundlCreatorCodeBtn {
+    background-color: white !important;
+    color: black;
+}
+
+
+.bundleItmBtn {
+    background: #000000;
+    border: solid white 2px;
+}
+
+.bundleCrd {
+    background: #000000;
+    border: solid white 2px;
+}
+
+span.material-icons {
+    color: white !important;
+}
+
+.vouchPop {
+    background-color: #000000;
+    border: solid white 3px;
+}
+
+div#genericPop div {
+    color: white !important;
+}
+
+#redVouch {
+    width: 379px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: black;
+    border: solid white 2px;
+}
+
+.redVouchBtn {
+    background-color: #000000;
+    border: solid white 2px;
+    color: #000 !important;
+}
+
