@@ -175,7 +175,6 @@
 }
 
 .challIconHP {
-    content: url(../img/hp_0.png);
     filter: brightness(0) invert(1) drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
 }
 
