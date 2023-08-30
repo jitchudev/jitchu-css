@@ -5,20 +5,7 @@
 /* futher info about the css feel free to contact me */
 /* discord: jitchu */
 /* twitter: JitchuFPS */
-:root{
-    --ammo-color: #fff;
-    --health-color: #fff;
-    --ping-fps-text-color: #fff;
-    --ping-fps-number-color: #fff;
-    --enemy-team-color: #bdbdbdbc;
-    --friendly-team-color: #cfbfffa5;
-    --friendly-color:  #cfbfff;
-    --enemy-color:  #bdbdbd;
-    --timer-color:  #fff;
-    --streak-color:  #fff;
-    --menu-icons-color: #fff;
-    
-}
+
 
 @font-face {
 	font-family: gamefont;
