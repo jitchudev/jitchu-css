@@ -1,8 +1,16 @@
-/* last updated: 26/08/2023 */
+/* last updated: 19/02/2025 */
 /* css made by jitchu */
 /* discord: jitchu */
 /* twitter: JitchuFPS */
 /* futher info about the css feel free to contact me */
+
+
+
+/* Make sure to command in production version */
+/* :root{
+    --pic: url(https://cdn.discordapp.com/attachments/865988103977828412/1321876269801148467/01d844498a745b9b704b1641b0529a3a.jpg?ex=67b6ae75&is=67b55cf5&hm=3dc24dfc3bc996a9393b02f7018077d28697076863b92ef0e0143b79323ecf94&);
+    --bgpic: url(https://cdn.discordapp.com/attachments/865988103977828412/1127335752099971092/anime-male.gif?ex=67b6e7fc&is=67b5967c&hm=13bee27c31136fe0bbc8a74eedbc7bb67c1e30d987ae3d48c79f566d298c865c&);
+} */
 
 @font-face {
     font-family: gamefont;
@@ -417,9 +425,15 @@ div#updateAdIcon {
     background-color: rgb(0 0 0) !important;
 }
 
-div#NewAltManager {
-    display: none !important;
+div#NewAltManager span {
+
+    color: white !important;
 }
+
+div#NewAltManager {
+    margin-bottom: 10px;
+}
+
 
 #signedInHeaderBar {
     width: 100% !important

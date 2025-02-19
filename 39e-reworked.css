@@ -1,11 +1,26 @@
 /* 39e css reworked */
 /* css made by jitchu */
 /* Credits to reizu for making the original and some of the menu code*/
-/* last updated: 30/08/2023 */
+/* last updated: 19/02/202 */
 /* futher info about the css feel free to contact me */
 /* discord: jitchu */
 /* twitter: JitchuFPS */
 
+
+/* :root{
+    --ammo-color: #fff;
+    --health-color: #fff;
+    --ping-fps-text-color: #fff;
+    --ping-fps-number-color: #fff;
+    --enemy-team-color: #bdbdbdbc;
+    --friendly-team-color: #cfbfffa5;
+    --friendly-color:  #cfbfff;
+    --enemy-color:  #bdbdbd;
+    --timer-color:  #fff;
+    --streak-color:  #fff;
+    --menu-icons-color: #fff;
+
+} */
 
 @font-face {
 	font-family: gamefont;
@@ -196,6 +211,7 @@
     vertical-align: baseline !important;
     height: 50px;
     filter: brightness(0) invert(1) drop-shadow(2px 2px 3px rgba(30, 30, 30, .5));
+    display: none !important;
 }
 
 
@@ -499,9 +515,10 @@ div#updateAdIcon {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
-div#NewAltManager {
+/* Uncommand to make alt manager visible */
+/* div#NewAltManager {
     display: none !important;
-}
+} */
 
 #signedInHeaderBar {
     width: 100% !important
